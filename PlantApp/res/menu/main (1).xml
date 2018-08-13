@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.plantainteligente.MainActivity" >
+    
+    <item
+        android:id="@+id/disabled_bluetooth"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/stat_sys_data_bluetooth"
+        android:title="Bluetooth enabled"/>
+    
+    <item
+        android:id="@+id/enabled_bluetooth"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/bluetooth_enabled"
+        android:title="Bluetooth disabled"/>
+    
+    <item
+        android:id="@+id/ic_arduino"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_arduino"
+        android:title="Arduino enabled"/>
+</menu>
